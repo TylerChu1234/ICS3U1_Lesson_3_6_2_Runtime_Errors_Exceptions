@@ -16,5 +16,9 @@ class Speed extends ConsoleProgram {
     // Output speed
     System.out.println("The speed is " + speed);
   }
+  catch (ArithmeticExpression e){
+    System.out.println("Error detected: " + e.getMessage());
+}
+
 
 }
